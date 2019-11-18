@@ -4,6 +4,9 @@
   "description": "Website",
   "main": "index.js",
   "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/pyvec/pyworking.cz/issues"
   },
-  "homepage": "https://github.com/pyvec/pyworking.cz#readme"
+  "homepage": "https://github.com/pyvec/pyworking.cz#readme",
+  "dependencies": {
+    "gatsby": "^2.17.15",
+    "gatsby-source-filesystem": "^2.1.37",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
