@@ -1,0 +1,21 @@
+{
+  "name": "pyworking.cz",
+  "version": "0.0.1",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyvec/pyworking.cz.git"
+  },
+  "keywords": [
+    "Pyworking"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyvec/pyworking.cz/issues"
+  },
+  "homepage": "https://github.com/pyvec/pyworking.cz#readme"
+}
