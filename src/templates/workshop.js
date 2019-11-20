@@ -1,12 +1,13 @@
 import React from 'react'
 import { graphql } from "gatsby"
+import Layout from '../components/Layout'
 
 function IndexPage({ data }) {
   return (
-    <div>
+    <Layout>
       <p>workshop</p>
       <pre>{JSON.stringify({ data }, null, 2)}</pre>
-    </div>
+    </Layout>
   )
 }
 
